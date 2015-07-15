@@ -1,0 +1,30 @@
+{
+  "name": "tape-power-assert-seed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/tape-power-assert-seed.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/tape-power-assert-seed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/tape-power-assert-seed/issues"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [
+    "tape",
+    "power-assert",
+    "assert",
+    "testing",
+    "test",
+    "tap"
+  ]
+}
