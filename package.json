@@ -1,23 +1,20 @@
 {
-  "name": "tape-power-assert-seed",
+  "name": "tape-power-assert",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azu/tape-power-assert-seed.git"
+    "url": "https://github.com/azu/tape-power-assert.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/tape-power-assert-seed",
+  "homepage": "https://github.com/azu/tape-power-assert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/tape-power-assert-seed/issues"
+    "url": "https://github.com/azu/tape-power-assert/issues"
   },
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "tape"
+    "test": "espower --config espower.config.json test.js > a.js && node a.js"
   },
   "keywords": [
     "tape",
@@ -26,5 +23,12 @@
     "testing",
     "test",
     "tap"
-  ]
+  ],
+  "devDependencies": {
+    "espower": "^1.0.6",
+    "espower-cli": "^0.2.0",
+    "power-assert": "^0.11.0",
+    "power-assert-formatter": "^1.0.1",
+    "tape": "^4.0.0"
+  }
 }
